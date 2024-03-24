@@ -1,0 +1,32 @@
+/* FONTS */
+
+@font-face {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  src: url('../fonts/Oswald/Oswald-Regular.woff2') format('woff2');
+  src: url('../fonts/Oswald/Oswald-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  src: url('../fonts/Oswald/Oswald-SemiBold.woff2') format('woff2');
+  src: url('../fonts/Oswald/Oswald-SemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Bowlby One', sans-serif;
+  font-weight: 400;
+  src: url('../fonts/Bowlby_One/BowlbyOne-Regular.woff2') format('woff2');
+  src: url('../fonts/Bowlby_One/BowlbyOne-Regular.woff') format('woff');
+}
+
+/* CSS CUSTOM PROPERTIES */
+
+:root {
+  --ff-primary: 'Oswald', sans-serif;
+  --ff-secondary: 'Bowlby One', sans-serif;
+
+  --fw-regular: 400;
+  --fw-semiBold: 600;
+}
