@@ -29,4 +29,23 @@
 
   --fw-regular: 400;
   --fw-semiBold: 600;
+
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-baseMed: 1.125rem;
+  --fs-med: 1.25rem;
+  --fs-medLg: 1.5rem;
+  --fs-lg: 2rem;
+  --fs-xlg: 2.5rem;
+
+  --fs-headingLg: 4.5rem;
+  --fs-headingXlg: 6.875rem;
+
+  --clr-primary-300: hsla(64, 91%, 69%, 1);
+  --clr-primary-400: hsla(13, 86%, 53%, 1);
+
+  --clr-neutral-100: hsla(0, 0%, 100%, 1);
+  --clr-neutral-900: hsla(0, 0%, 0%, 1);
+
+  --clr-accent-400: hsla(20, 25%, 95%, 1);
 }
