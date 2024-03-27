@@ -84,4 +84,29 @@ select {
   font: inherit;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 /* BODY/GLOBAL Styles */
+
+body {
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-regular);
+  background: var(--clr-accent-400);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ff-secondary);
+  text-transform: uppercase;
+  line-height: 1.1;
+}
