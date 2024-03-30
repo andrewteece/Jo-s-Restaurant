@@ -132,6 +132,10 @@ h6 {
   background: var(--clr-primary-400);
 }
 
+.flex-row {
+  display: flex;
+}
+
 /* COMPONENT */
 
 .btn {
@@ -186,17 +190,40 @@ h6 {
   letter-spacing: -0.02rem;
   margin-top: 3rem;
   margin-bottom: 1rem;
+  margin-inline: 1rem;
 }
 
 .reviews__text {
   font-size: var(--fs-baseMed);
   color: var(--clr-primary-400);
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
+  margin-inline: 1rem;
 }
 
 .review__card {
   background: var(--clr-neutral-100);
   margin-inline: 1rem;
+  margin-bottom: 1rem;
+  padding-block: 1.5rem;
+  padding-inline: 1rem;
   border-radius: 6px;
   box-shadow: var(--shadow-elevation-medium);
+
+  display: flex;
+  flex-direction: column;
+
+  max-width: 27rem;
+  min-height: 11rem;
+}
+
+.review__card--title {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-semiBold);
+  align-self: center;
+  margin-left: 1rem;
+}
+
+.review__card--text {
+  margin-left: 4rem;
 }
