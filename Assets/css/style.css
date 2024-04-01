@@ -126,6 +126,10 @@ h6 {
   line-height: 1.1;
 }
 
+.wrapper {
+  padding-inline: 1rem;
+}
+
 /* UTILITY */
 
 .bg-accent {
@@ -177,7 +181,29 @@ h6 {
 
 /* HEADER & NAV */
 
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-inline: 1rem;
+  padding-bottom: 2rem;
+}
+
 /* HERO */
+
+.hero {
+  position: relative;
+}
+
+.hero__title {
+  font-size: var(--fs-xlg);
+  letter-spacing: -0.4px;
+}
+
+.hero__img {
+  transform: rotateZ(-10deg);
+  z-index: 1;
+}
 
 /* MENU */
 
