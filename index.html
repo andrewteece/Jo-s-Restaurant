@@ -192,34 +192,38 @@
       </section>
     </main>
     <!-- Footer -->
-    <footer class="bg-accent">
-      <img src="./assets/images/ICONS_22.svg" alt="" />
-      <h2>subscribe to our newsletter</h2>
-      <p>
+    <footer class="bg-accent wrapper">
+      <img class="footer__logo" src="./assets/images/ICONS_22.svg" alt="" />
+      <h2 class="footer__title">subscribe to our newsletter</h2>
+      <p class="footer__text">
         By subscribing to our newsletter, you will receive the latest tips, and
         promotions about our products and services straight to your inbox.
       </p>
-      <button type="button">Enter your email</button>
-      <button type="button" class="btn btn-dark">subscribe</button>
-      <nav>
-        <ul>
-          <li>
+      <div class="footer__buttons">
+        <button type="button" class="btn btn-light">Enter your email</button>
+        <button type="button" class="btn btn-dark">subscribe</button>
+      </div>
+      <nav class="footer__nav" aria-labelledby="footer navigation">
+        <ul class="footer__nav--list">
+          <li class="footer__nav--item">
             <a href="#">about</a>
           </li>
-          <li>
+          <li class="footer__nav--item">
             <a href="#">menu</a>
           </li>
-          <li>
+          <li class="footer__nav--item">
             <a href="#">reviews</a>
           </li>
-          <li>
+          <li class="footer__nav--item">
             <a href="#">social</a>
           </li>
         </ul>
       </nav>
-      <p>privacy</p>
-      <p>terms</p>
-      <p>accessibility</p>
+      <div class="flex-row">
+        <p>privacy</p>
+        <p>terms</p>
+        <p>accessibility</p>
+      </div>
     </footer>
     <script src="./assets/js/script.js"></script>
   </body>
