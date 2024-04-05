@@ -310,3 +310,14 @@ h6 {
   text-decoration: underline;
   transition: all 400ms ease-in-out;
 }
+
+.footer__privacy {
+  justify-content: center;
+  gap: 2rem;
+  padding-block: 3rem;
+}
+
+.footer__privacy p {
+  font-size: var(--fs-sm);
+  text-transform: uppercase;
+}
