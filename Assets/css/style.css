@@ -201,14 +201,24 @@ h6 {
 }
 
 .hero__img {
-  transform: rotateZ(-10deg);
+  padding-bottom: 2rem;
+  transform: rotateZ(-5deg);
   z-index: 1;
+}
+
+/* INFO */
+
+.info {
+  padding-top: 3rem;
 }
 
 /* MENU */
 
 /* REVIEWS */
 
+.reviews {
+  padding-bottom: 4rem;
+}
 .reviews__title {
   font-size: var(--fs-lg);
   font-weight: var(--fw-semiBold);
