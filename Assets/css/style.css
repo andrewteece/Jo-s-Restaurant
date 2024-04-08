@@ -140,6 +140,11 @@ h6 {
   display: flex;
 }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
 /* COMPONENT */
 
 .btn {
@@ -320,4 +325,11 @@ h6 {
 .footer__privacy p {
   font-size: var(--fs-sm);
   text-transform: uppercase;
+}
+
+.footer__images {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 2rem;
 }
