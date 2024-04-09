@@ -219,6 +219,27 @@ h6 {
 
 /* MENU */
 
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__item--bg {
+  background-color: var(--clr-neutral-100);
+}
+
+.menu__item--title {
+  font-size: var(--fs-medLg);
+  letter-spacing: -0.24px;
+  padding-block: 1rem;
+}
+
+.menu__item--info {
+  text-align: center;
+}
+
 /* REVIEWS */
 
 .reviews {
