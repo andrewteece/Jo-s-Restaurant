@@ -226,18 +226,28 @@ h6 {
   align-items: center;
 }
 
-.menu__item--bg {
+.menu__item {
   background-color: var(--clr-neutral-100);
+  box-shadow: var(--shadow-elevation-medium);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .menu__item--title {
   font-size: var(--fs-medLg);
+  text-align: center;
   letter-spacing: -0.24px;
   padding-block: 1rem;
 }
 
 .menu__item--info {
   text-align: center;
+  padding-inline: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* REVIEWS */
